@@ -16,10 +16,10 @@ $EndDescr
 Text HLabel 3000 4500 0    50   Input ~ 0
 audio
 $Comp
-L Transistor_BJT:BC847 Q?
+L Transistor_BJT:BC847 Q9
 U 1 1 621DB846
 P 3900 4500
-F 0 "Q?" H 4091 4546 50  0000 L CNN
+F 0 "Q9" H 4091 4546 50  0000 L CNN
 F 1 "BC847" H 4091 4455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4425 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3900 4500 50  0001 L CNN
@@ -27,12 +27,12 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 621DC0EC
 P 3500 4500
-F 0 "R?" V 3293 4500 50  0000 C CNN
+F 0 "R22" V 3293 4500 50  0000 C CNN
 F 1 "1k" V 3384 4500 50  0000 C CNN
-F 2 "" V 3430 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3430 4500 50  0001 C CNN
 F 3 "~" H 3500 4500 50  0001 C CNN
 	1    3500 4500
 	0    1    1    0   
@@ -55,12 +55,12 @@ $EndComp
 Wire Wire Line
 	4000 5000 4000 4700
 $Comp
-L Device:R R?
+L Device:R R23
 U 1 1 621DDB6F
 P 4000 3750
-F 0 "R?" H 4070 3796 50  0000 L CNN
+F 0 "R23" H 4070 3796 50  0000 L CNN
 F 1 "330" H 4070 3705 50  0000 L CNN
-F 2 "" V 3930 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3930 3750 50  0001 C CNN
 F 3 "~" H 4000 3750 50  0001 C CNN
 	1    4000 3750
 	1    0    0    -1  
@@ -81,10 +81,10 @@ $EndComp
 Wire Wire Line
 	4000 3500 4000 3600
 $Comp
-L Transistor_BJT:BCP53 Q?
+L Transistor_BJT:BCP53 Q11
 U 1 1 621E0302
 P 4900 4250
-F 0 "Q?" H 5091 4204 50  0000 L CNN
+F 0 "Q11" H 5091 4204 50  0000 L CNN
 F 1 "BCP53" H 5091 4295 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5100 4175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 4900 4250 50  0001 L CNN
@@ -92,10 +92,10 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 4900 4250 50  00
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:BCP56 Q?
+L Transistor_BJT:BCP56 Q10
 U 1 1 621DEAF1
 P 4900 3750
-F 0 "Q?" H 5091 3796 50  0000 L CNN
+F 0 "Q10" H 5091 3796 50  0000 L CNN
 F 1 "BCP56" H 5091 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5100 3675 50  0001 L CIN
 F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H 4900 3750 50  0001 L CNN
@@ -190,43 +190,47 @@ Wire Wire Line
 Wire Wire Line
 	5900 4000 6000 4000
 $Comp
-L Device:L L?
+L Device:L L2
 U 1 1 621EB235
 P 6250 4000
-F 0 "L?" V 6440 4000 50  0000 C CNN
+F 0 "L2" V 6440 4000 50  0000 C CNN
 F 1 "100u" V 6349 4000 50  0000 C CNN
-F 2 "" H 6250 4000 50  0001 C CNN
-F 3 "~" H 6250 4000 50  0001 C CNN
+F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 6250 4000 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/fc08d512f84cb1110a815970383afa27/COIL0912-0.1.pdf" H 6250 4000 50  0001 C CNN
+F 4 "https://www.tme.eu/cz/details/coil0912-0.1/tlumivky-radialni/ferrocore/" V 6250 4000 50  0001 C CNN "TME"
 	1    6250 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L1
 U 1 1 621EA617
 P 5750 4000
-F 0 "L?" V 5940 4000 50  0000 C CNN
+F 0 "L1" V 5940 4000 50  0000 C CNN
 F 1 "220u" V 5849 4000 50  0000 C CNN
-F 2 "" H 5750 4000 50  0001 C CNN
-F 3 "~" H 5750 4000 50  0001 C CNN
+F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 5750 4000 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/83adeab5777487b07497fd27dcca2b01/COIL0912-0.22.pdf" H 5750 4000 50  0001 C CNN
+F 4 "https://www.tme.eu/cz/details/coil0912-0.22/tlumivky-radialni/ferrocore/" V 5750 4000 50  0001 C CNN "TME"
 	1    5750 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C16
 U 1 1 621E9D4C
 P 7750 4000
-F 0 "C?" V 8005 4000 50  0000 C CNN
-F 1 "220u" V 7914 4000 50  0000 C CNN
-F 2 "" H 7788 3850 50  0001 C CNN
-F 3 "~" H 7750 4000 50  0001 C CNN
+F 0 "C16" V 8100 4000 50  0000 C CNN
+F 1 "220u / 35V" V 8000 4000 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 7788 3850 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/b957a8d5279e179f3fcd11fc1b5432f9/ED.pdf" H 7750 4000 50  0001 C CNN
+F 4 "https://www.tme.eu/cz/details/ed1v221mnn0816/elektrol-kondenzatory-tht-s-niz-imped/elite/" V 7750 4000 50  0001 C CNN "TME"
+F 5 "ED1V221MNN0816" V 7900 4000 50  0000 C CNN "TME Symbol"
 	1    7750 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D8
 U 1 1 62207497
 P 5500 4300
-F 0 "D?" V 5454 4380 50  0000 L CNN
+F 0 "D8" V 5454 4380 50  0000 L CNN
 F 1 "1N4148W" V 5545 4380 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 5500 4125 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 4300 50  0001 C CNN
@@ -234,10 +238,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 4300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D7
 U 1 1 62208ECB
 P 5500 3600
-F 0 "D?" V 5454 3680 50  0000 L CNN
+F 0 "D7" V 5454 3680 50  0000 L CNN
 F 1 "1N4148W" V 5545 3680 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 5500 3425 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5500 3600 50  0001 C CNN
@@ -281,93 +285,95 @@ F 3 "" H 8000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C14
 U 1 1 62218BD2
 P 6000 4250
-F 0 "C?" H 6118 4296 50  0000 L CNN
-F 1 "3u3" H 6118 4205 50  0000 L CNN
-F 2 "" H 6038 4100 50  0001 C CNN
+F 0 "C14" H 6118 4296 50  0000 L CNN
+F 1 "3u3 / 50V" H 6050 4150 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6038 4100 50  0001 C CNN
 F 3 "~" H 6000 4250 50  0001 C CNN
+F 4 "TODO https://www.tme.eu/cz/details/pf1h3r3mpn0511u/elektrolyticke-kondenzatory-tht-105degc/elite/" H 6000 4250 50  0001 C CNN "TME"
 	1    6000 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C15
 U 1 1 622196A7
 P 6500 4250
-F 0 "C?" H 6618 4296 50  0000 L CNN
-F 1 "1u" H 6618 4205 50  0000 L CNN
-F 2 "" H 6538 4100 50  0001 C CNN
+F 0 "C15" H 6618 4296 50  0000 L CNN
+F 1 "1u / 50V" H 6550 4150 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 6538 4100 50  0001 C CNN
 F 3 "~" H 6500 4250 50  0001 C CNN
+F 4 "GES05413041" H 6500 4250 50  0001 C CNN "GES"
 	1    6500 4250
 	1    0    0    -1  
 $EndComp
 Text Notes 550  7700 0    50   ~ 0
-Notes:\n- MLCCs are piezoelectric (even X7R)\n- Voltage clamping is needed to avoid high voltage spikes at resonant frequencies when speaker is disconnected.\n- A transistor can be used for voltage clamping because of the low base-emiter breakdown voltage.
+Notes:\n- MLCCs are piezoelectric (even X7R)\n- MLCC's capacitance is voltage-dependent.\n- Voltage clamping is needed to avoid high voltage spikes at resonant frequencies when speaker is disconnected.\n- A BJT can be used for voltage clamping because of the low base-emiter breakdown voltage.
 $Comp
-L Transistor_BJT:BC847 Q?
+L Transistor_BJT:BC847 Q12
 U 1 1 623F8CE8
-P 6700 5000
-F 0 "Q?" H 6891 5046 50  0000 L CNN
-F 1 "BC847" H 6891 4955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 4925 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 6700 5000 50  0001 L CNN
-	1    6700 5000
+P 6900 5000
+F 0 "Q12" H 7091 5046 50  0000 L CNN
+F 1 "BC847" H 7091 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 4925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 6900 5000 50  0001 L CNN
+	1    6900 5000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6500 5000 6450 5000
+	6700 5000 6650 5000
 Wire Wire Line
-	6450 5000 6450 5300
+	6650 5000 6650 5300
 Wire Wire Line
-	6450 5300 6800 5300
+	6650 5300 7000 5300
 Wire Wire Line
-	6800 5300 6800 5200
+	7000 5300 7000 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 623FB4AD
-P 6800 5350
-F 0 "#PWR?" H 6800 5100 50  0001 C CNN
-F 1 "GND" H 6805 5177 50  0000 C CNN
-F 2 "" H 6800 5350 50  0001 C CNN
-F 3 "" H 6800 5350 50  0001 C CNN
-	1    6800 5350
+P 7000 5350
+F 0 "#PWR010" H 7000 5100 50  0001 C CNN
+F 1 "GND" H 7005 5177 50  0000 C CNN
+F 2 "" H 7000 5350 50  0001 C CNN
+F 3 "" H 7000 5350 50  0001 C CNN
+	1    7000 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 5350 6800 5300
-Connection ~ 6800 5300
-Text Notes 6900 5200 0    50   ~ 0
+	7000 5350 7000 5300
+Connection ~ 7000 5300
+Text Notes 7100 5200 0    50   ~ 0
 Voltage clamping
 $Comp
-L Device:Speaker LS?
+L Device:Speaker LS1
 U 1 1 621ED8BC
 P 8200 4200
-F 0 "LS?" H 8370 4196 50  0000 L CNN
+F 0 "LS1" H 8370 4196 50  0000 L CNN
 F 1 "8 ohm" H 8370 4105 50  0000 L CNN
-F 2 "" H 8200 4000 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8200 4000 50  0001 C CNN
 F 3 "~" H 8190 4150 50  0001 C CNN
 	1    8200 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 4000 6800 4000
+	6500 4000 7000 4000
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP2
 U 1 1 62403F57
-P 6800 4250
-F 0 "JP?" V 6754 4318 50  0000 L CNN
-F 1 "SolderJumper_2_Bridged" V 6845 4318 50  0000 L CNN
-F 2 "" H 6800 4250 50  0001 C CNN
-F 3 "~" H 6800 4250 50  0001 C CNN
-	1    6800 4250
+P 7000 4250
+F 0 "JP2" V 6954 4318 50  0000 L CNN
+F 1 "SolderJumper_2_Bridged" V 7045 4318 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 7000 4250 50  0001 C CNN
+F 3 "~" H 7000 4250 50  0001 C CNN
+	1    7000 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6800 4800 6800 4400
+	7000 4800 7000 4400
 Wire Wire Line
-	6800 4100 6800 4000
-Connection ~ 6800 4000
+	7000 4100 7000 4000
+Connection ~ 7000 4000
 Wire Wire Line
-	6800 4000 7600 4000
+	7000 4000 7600 4000
 $EndSCHEMATC
