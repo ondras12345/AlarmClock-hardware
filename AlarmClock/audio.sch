@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
+Title "AlarmClock"
+Date "2022-03-27"
 Rev ""
 Comp "Ondřej Sluka"
 Comment1 ""
@@ -57,29 +57,27 @@ Wire Wire Line
 $Comp
 L Device:R R23
 U 1 1 621DDB6F
-P 4000 3750
-F 0 "R23" H 4070 3796 50  0000 L CNN
-F 1 "330" H 4070 3705 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3930 3750 50  0001 C CNN
-F 3 "~" H 4000 3750 50  0001 C CNN
-	1    4000 3750
+P 4000 3550
+F 0 "R23" H 4070 3596 50  0000 L CNN
+F 1 "330" H 4070 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3930 3550 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 3900 4000 4000
 $Comp
 L power:+5V #PWR0137
 U 1 1 621DE4FD
-P 4000 3500
-F 0 "#PWR0137" H 4000 3350 50  0001 C CNN
-F 1 "+5V" H 4015 3673 50  0000 C CNN
-F 2 "" H 4000 3500 50  0001 C CNN
-F 3 "" H 4000 3500 50  0001 C CNN
-	1    4000 3500
+P 4000 3300
+F 0 "#PWR0137" H 4000 3150 50  0001 C CNN
+F 1 "+5V" H 4015 3473 50  0000 C CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3500 4000 3600
+	4000 3300 4000 3400
 $Comp
 L Transistor_BJT:BCP53 Q11
 U 1 1 621E0302
@@ -115,20 +113,6 @@ F 3 "" H 5000 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 4450 5000 4500
-Wire Wire Line
-	4700 4250 4500 4250
-Wire Wire Line
-	4500 4250 4500 4000
-Wire Wire Line
-	4500 3750 4700 3750
-Wire Wire Line
-	4500 4000 4000 4000
-Connection ~ 4500 4000
-Wire Wire Line
-	4500 4000 4500 3750
-Connection ~ 4000 4000
-Wire Wire Line
-	4000 4000 4000 4300
 Wire Wire Line
 	5000 3950 5000 4000
 $Comp
@@ -309,7 +293,7 @@ F 4 "GES05413041" H 6500 4250 50  0001 C CNN "GES"
 	1    0    0    -1  
 $EndComp
 Text Notes 550  7700 0    50   ~ 0
-Notes:\n- MLCCs are piezoelectric (even X7R)\n- MLCC's capacitance is voltage-dependent.\n- Voltage clamping is needed to avoid high voltage spikes at resonant frequencies when speaker is disconnected.\n- A BJT can be used for voltage clamping because of the low base-emiter breakdown voltage.
+Notes:\n- MLCCs are piezoelectric (even X7R)\n- MLCC's capacitance is voltage-dependent.\n- Voltage clamping is needed to avoid high voltage spikes at resonant frequencies when speaker is disconnected.\n- A BJT can be used for voltage clamping because of the low base-emiter breakdown voltage.\n- JP3 is just a 0 ohm jumper for PCB layout.
 $Comp
 L Transistor_BJT:BC847 Q12
 U 1 1 623F8CE8
@@ -376,4 +360,29 @@ Wire Wire Line
 Connection ~ 7000 4000
 Wire Wire Line
 	7000 4000 7600 4000
+Wire Wire Line
+	4000 4250 4700 4250
+Wire Wire Line
+	4000 4250 4000 4300
+$Comp
+L Jumper:Jumper_2_Bridged JP3
+U 1 1 62795C64
+P 4000 4000
+F 0 "JP3" V 4046 3912 50  0000 R CNN
+F 1 "0 ohm" V 3955 3912 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 4000 4000 50  0001 C CNN
+F 3 "~" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3750 4000 3700
+Wire Wire Line
+	4000 3750 4700 3750
+Wire Wire Line
+	4000 3800 4000 3750
+Connection ~ 4000 3750
+Wire Wire Line
+	4000 4200 4000 4250
+Connection ~ 4000 4250
 $EndSCHEMATC
