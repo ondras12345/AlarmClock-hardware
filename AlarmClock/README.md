@@ -1,6 +1,12 @@
 # AlarmClock
 This is the main project for the whole thing. Both schematics and PCB design.
 
+![3D rendering of the top side of the PCB](./3d/AlarmClock-top.png)
+![3D rendering of the bottom side of the PCB](./3d/AlarmClock-bottom.png)
+
+[Schematics](./AlarmClock.pdf)
+[PCB](./AlarmClock-PCB.pdf)
+
 
 ## MCU pinout
 Pin numbers in the firmware are using the convention set by the Arduino
