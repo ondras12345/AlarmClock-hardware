@@ -1276,28 +1276,17 @@ Wire Wire Line
 	10550 1150 10550 1100
 Wire Wire Line
 	10550 1100 10650 1100
-Text Notes 550  6800 0    50   ~ 0
-LCD is an\nI2C module\nthat includes\npull-up\nresistors.
+Text Notes 550  6600 0    50   ~ 0
+Remove I2C\npull-ups from\nLCD module.
 $Comp
 L Device:R R3
 U 1 1 624B2BA2
 P 1200 6750
 F 0 "R3" H 1270 6796 50  0000 L CNN
-F 1 "DNP" H 1270 6705 50  0000 L CNN
+F 1 "3k3" H 1270 6705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1130 6750 50  0001 C CNN
 F 3 "~" H 1200 6750 50  0001 C CNN
 	1    1200 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 624B2FD2
-P 1550 6750
-F 0 "R4" H 1620 6796 50  0000 L CNN
-F 1 "DNP" H 1620 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1480 6750 50  0001 C CNN
-F 3 "~" H 1550 6750 50  0001 C CNN
-	1    1550 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1465,8 +1454,6 @@ Wire Notes Line
 	5100 2850 5100 500 
 Text Notes 1600 650  0    100  ~ 0
 BUTTONS & CONTROLS
-Text Notes 850  7100 0    50   ~ 0
-DNP - do not populate
 Wire Notes Line
 	500  6000 6950 6000
 Text Notes 600  6150 0    100  ~ 0
@@ -1891,4 +1878,15 @@ Wire Wire Line
 Connection ~ 1550 3800
 Wire Wire Line
 	1550 3800 1550 3900
+$Comp
+L Device:R R4
+U 1 1 624B2FD2
+P 1550 6750
+F 0 "R4" H 1620 6796 50  0000 L CNN
+F 1 "3k3" H 1620 6705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1480 6750 50  0001 C CNN
+F 3 "~" H 1550 6750 50  0001 C CNN
+	1    1550 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
