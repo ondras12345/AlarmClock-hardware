@@ -224,7 +224,7 @@ Wire Wire Line
 	7500 2900 7500 3000
 Connection ~ 7500 3000
 Wire Wire Line
-	7500 2600 7500 2500
+	7500 2600 7500 2550
 Wire Wire Line
 	6500 3550 6500 3500
 Wire Wire Line
@@ -291,4 +291,28 @@ Wire Wire Line
 Connection ~ 5850 3500
 Wire Wire Line
 	5850 3500 6500 3500
+$Comp
+L Device:R R27
+U 1 1 6246D589
+P 8000 2750
+F 0 "R27" H 8070 2796 50  0000 L CNN
+F 1 "10k" H 8070 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7930 2750 50  0001 C CNN
+F 3 "~" H 8000 2750 50  0001 C CNN
+	1    8000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2900 8000 3000
+Wire Wire Line
+	8000 3000 7500 3000
+Wire Wire Line
+	8000 2600 8000 2550
+Wire Wire Line
+	8000 2550 7500 2550
+Connection ~ 7500 2550
+Wire Wire Line
+	7500 2550 7500 2500
+Text Notes 500  7750 0    50   ~ 0
+Notes:\n- R27 is needed for the LED to fully turn off.
 $EndSCHEMATC

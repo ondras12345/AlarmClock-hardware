@@ -1408,8 +1408,9 @@ P 8050 4850
 F 0 "SW4" V 8004 4998 50  0000 L CNN
 F 1 "SW_Push" V 8095 4998 50  0000 L CNN
 F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 8050 5050 50  0001 C CNN
-F 3 "~" H 8050 5050 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/49afa6e9f9d0b38495230e99c7b0948e/SKHHAMA010.PDF" H 8050 5050 50  0001 C CNN
 F 4 "RESET" V 8200 5100 50  0000 C CNN "Label"
+F 5 "https://www.tme.eu/cz/details/skhhama010/mikrospinace-tact/alps/" V 8050 4850 50  0001 C CNN "TME"
 	1    8050 4850
 	0    1    1    0   
 $EndComp

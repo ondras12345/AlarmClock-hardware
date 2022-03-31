@@ -7,6 +7,10 @@ This is the main project for the whole thing. Both schematics and PCB design.
 [Schematics](./AlarmClock.pdf)
 [PCB](./AlarmClock-PCB.pdf)
 
+**Warning**: R27 is currently NOT included in the gcode files in `cnc/`.
+However, it is quite easy to bodge in if you don't want to mess with `FlatCAM`
+to fix this. Gerber files are OK.
+
 
 ## MCU pinout
 Pin numbers in the firmware are using the convention set by the Arduino
