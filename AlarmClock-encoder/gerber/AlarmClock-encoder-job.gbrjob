@@ -1,0 +1,58 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "5.1.10-88a1d61d58~90~ubuntu20.04.1"
+    },
+    "CreationDate":  "2022-04-06T20:45:46+02:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "AlarmClock-encoder",
+      "GUID": "416c6172-6d43-46c6-9f63-6b2d656e636f",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 27.990,
+      "Y": 24.180
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.400,
+      "PadToTrack":  0.400,
+      "TrackToTrack":  0.400,
+      "MinLineWidth":  1.000
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "AlarmClock-encoder-B_Cu.gbr",
+      "FileFunction":  "Copper,L2,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "AlarmClock-encoder-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    }
+  ]
+}
