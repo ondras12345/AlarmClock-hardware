@@ -1476,8 +1476,6 @@ F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_B
 $EndComp
 Wire Notes Line
 	7250 2100 7250 500 
-Text Notes 5150 650  0    100  ~ 0
-ISP PROGRAMMING HEADER
 Wire Wire Line
 	5950 850  5950 900 
 $Comp
@@ -1890,4 +1888,6 @@ F 3 "~" H 1550 6750 50  0001 C CNN
 	1    1550 6750
 	1    0    0    -1  
 $EndComp
+Text Notes 5700 650  0    100  ~ 0
+ISP HEADER
 $EndSCHEMATC
