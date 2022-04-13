@@ -69,6 +69,7 @@ F 0 "C17" H 4615 1696 50  0000 L CNN
 F 1 "100n" H 4615 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4538 1500 50  0001 C CNN
 F 3 "~" H 4500 1650 50  0001 C CNN
+F 4 "GES05400125" H 4500 1650 50  0001 C CNN "GES"
 	1    4500 1650
 	1    0    0    -1  
 $EndComp
@@ -80,6 +81,7 @@ F 0 "C7" H 5215 4546 50  0000 L CNN
 F 1 "100n" H 5215 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5138 4350 50  0001 C CNN
 F 3 "~" H 5100 4500 50  0001 C CNN
+F 4 "GES05400125" H 5100 4500 50  0001 C CNN "GES"
 	1    5100 4500
 	1    0    0    -1  
 $EndComp
@@ -166,6 +168,7 @@ F 1 "Rotary_Encoder_Switch" H 3450 950 50  0001 C CNN
 F 2 "ondra:Rotary_Encode_Switch_Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical" H 3300 1660 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/8c1b1e629e264c85ef5bd42048515675/PEC11R.pdf" H 3450 1760 50  0001 C CNN
 F 4 "https://www.tme.eu/cz/details/pec11r-4220k-s0024/inkrementalni-enkodery/bourns/" H 3450 1500 50  0001 C CNN "TME"
+F 5 "PEC11R-4220K-S0024" H 3450 1500 50  0001 C CNN "TME Symbol"
 	1    3450 1500
 	1    0    0    -1  
 $EndComp
@@ -437,6 +440,7 @@ F 0 "C3" H 2065 7396 50  0000 L CNN
 F 1 "100n" H 2065 7305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1988 7200 50  0001 C CNN
 F 3 "~" H 1950 7350 50  0001 C CNN
+F 4 "GES05400125" H 1950 7350 50  0001 C CNN "GES"
 	1    1950 7350
 	1    0    0    -1  
 $EndComp
@@ -572,6 +576,7 @@ F 1 "PC-GK2.1" H 1107 4226 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1100 3960 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/0c2caa550314868a0a12e8b9344a6069/pc-gk2.1.pdf" H 1100 3960 50  0001 C CNN
 F 4 "https://www.tme.eu/cz/details/pc-gk2.1/konektory-dc/ninigi/" H 1050 4000 50  0001 C CNN "TME"
+F 5 "PC-GK2.1" H 1050 4000 50  0001 C CNN "TME Symbol"
 	1    1050 4000
 	1    0    0    -1  
 $EndComp
@@ -948,8 +953,8 @@ F 0 "Y1" V 7409 3781 50  0000 L CNN
 F 1 "16MHz" V 7500 3781 50  0000 L CNN
 F 2 "Crystal:Crystal_HC49-U_Vertical" H 7500 3650 50  0001 C CNN
 F 3 "https://www.tme.eu/cz/details/16m-49s-sr/krystalove-rezonatory-tht/sr-passives/" H 7500 3650 50  0001 C CNN
-F 4 "16M-49SMD-SR" V 7591 3781 50  0000 L CNN "Part Number"
-F 5 "https://www.tme.eu/cz/details/16m-49s-sr/krystalove-rezonatory-tht/sr-passives/" V 7500 3650 50  0001 C CNN "TME"
+F 4 "https://www.tme.eu/cz/details/16m-49s-sr/krystalove-rezonatory-tht/sr-passives/" V 7500 3650 50  0001 C CNN "TME"
+F 5 "16M-49SMD-SR" V 7500 3650 50  0001 C CNN "TME Symbol"
 	1    7500 3650
 	0    1    1    0   
 $EndComp
@@ -1045,6 +1050,8 @@ F 0 "Q5" H 10105 2996 50  0000 L CNN
 F 1 "IRL6342PbF" H 10100 2900 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10100 2850 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irl6342pbf.pdf?fileId=5546d462533600a40153565ffb7a2577" H 9900 2950 50  0001 L CNN
+F 4 "https://www.tme.eu/cz/details/irl6342trpbf/tranzistory-s-kanalem-n-smd/infineon-technologies/" H 9900 2950 50  0001 C CNN "TME"
+F 5 "IRL6342TRPBF" H 9900 2950 50  0001 C CNN "TME Symbol"
 	1    9900 2950
 	1    0    0    -1  
 $EndComp
@@ -1056,6 +1063,8 @@ F 0 "Q4" H 10105 1546 50  0000 L CNN
 F 1 "IRL6342PbF" H 10105 1455 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10100 1400 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/irl6342pbf.pdf?fileId=5546d462533600a40153565ffb7a2577" H 9900 1500 50  0001 L CNN
+F 4 "https://www.tme.eu/cz/details/irl6342trpbf/tranzistory-s-kanalem-n-smd/infineon-technologies/" H 9900 1500 50  0001 C CNN "TME"
+F 5 "IRL6342TRPBF" H 9900 1500 50  0001 C CNN "TME Symbol"
 	1    9900 1500
 	1    0    0    -1  
 $EndComp
@@ -1348,6 +1357,7 @@ F 0 "C9" H 7565 4896 50  0000 L CNN
 F 1 "100n" H 7565 4805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7488 4700 50  0001 C CNN
 F 3 "~" H 7450 4850 50  0001 C CNN
+F 4 "GES05400125" H 7450 4850 50  0001 C CNN "GES"
 	1    7450 4850
 	1    0    0    -1  
 $EndComp
@@ -1411,6 +1421,7 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 8050 5050 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/49afa6e9f9d0b38495230e99c7b0948e/SKHHAMA010.PDF" H 8050 5050 50  0001 C CNN
 F 4 "RESET" V 8200 5100 50  0000 C CNN "Label"
 F 5 "https://www.tme.eu/cz/details/skhhama010/mikrospinace-tact/alps/" V 8050 4850 50  0001 C CNN "TME"
+F 6 "SKHHAMA010" H 8050 4850 50  0001 C CNN "TME Symbol"
 	1    8050 4850
 	0    1    1    0   
 $EndComp
@@ -1517,7 +1528,7 @@ P 6050 1400
 F 0 "J4" H 5721 1496 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5721 1405 50  0000 R CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 5800 1450 50  0001 C CNN
-F 3 " ~" H 4775 850 50  0001 C CNN
+F 3 "~" H 4775 850 50  0001 C CNN
 	1    6050 1400
 	1    0    0    -1  
 $EndComp
@@ -1626,6 +1637,7 @@ F 0 "C5" H 3865 4046 50  0000 L CNN
 F 1 "470n" H 3865 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3788 3850 50  0001 C CNN
 F 3 "~" H 3750 4000 50  0001 C CNN
+F 4 "GES13004463" H 3750 4000 50  0001 C CNN "GES"
 	1    3750 4000
 	1    0    0    -1  
 $EndComp
@@ -1671,6 +1683,7 @@ F 1 "10n" H 2165 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2088 1700 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/653c0d3264f3d0a9a137261f4ec67d5d/KEM_C1011_X7R_TIP_RING_SMD.pdf" H 2050 1850 50  0001 C CNN
 F 4 "https://www.tme.eu/cz/details/c1206c103jaractu/kondenzatory-mlcc-smd-1206/kemet/" H 2050 1850 50  0001 C CNN "TME"
+F 5 "C1206C103JARACTU" H 2050 1850 50  0001 C CNN "TME Symbol"
 	1    2050 1850
 	1    0    0    -1  
 $EndComp
@@ -1683,6 +1696,7 @@ F 1 "10n" H 2515 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2438 1700 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/653c0d3264f3d0a9a137261f4ec67d5d/KEM_C1011_X7R_TIP_RING_SMD.pdf" H 2400 1850 50  0001 C CNN
 F 4 "https://www.tme.eu/cz/details/c1206c103jaractu/kondenzatory-mlcc-smd-1206/kemet/" H 2400 1850 50  0001 C CNN "TME"
+F 5 "C1206C103JARACTU" H 2400 1850 50  0001 C CNN "TME Symbol"
 	1    2400 1850
 	1    0    0    -1  
 $EndComp

@@ -101,6 +101,8 @@ F 0 "Q8" H 7591 3546 50  0000 L CNN
 F 1 "BCP56" H 7591 3455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7600 3425 50  0001 L CIN
 F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H 7400 3500 50  0001 L CNN
+F 4 "https://www.tme.eu/cz/details/bcp56-16tx/tranzistory-npn-smd/nexperia/" H 7400 3500 50  0001 C CNN "TME"
+F 5 "BCP56-16TX" H 7400 3500 50  0001 C CNN "TME Symbol"
 	1    7400 3500
 	1    0    0    -1  
 $EndComp
@@ -176,6 +178,8 @@ F 0 "R21" H 7570 4296 50  0000 L CNN
 F 1 "6R8" H 7570 4205 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7430 4250 50  0001 C CNN
 F 3 "~" H 7500 4250 50  0001 C CNN
+F 4 "https://www.tme.eu/cz/details/smd1206-6r8-1%25/rezistory-smd-1206/royal-ohm/1206s4f680kt5e/" H 7500 4250 50  0001 C CNN "TME"
+F 5 "SMD1206-6R8-1%" H 7500 4250 50  0001 C CNN "TME Symbol"
 	1    7500 4250
 	1    0    0    -1  
 $EndComp
@@ -270,6 +274,7 @@ F 0 "C13" H 5965 3796 50  0000 L CNN
 F 1 "100n" H 5965 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5888 3600 50  0001 C CNN
 F 3 "~" H 5850 3750 50  0001 C CNN
+F 4 "GES05400125" H 5850 3750 50  0001 C CNN "GES"
 	1    5850 3750
 	1    0    0    -1  
 $EndComp

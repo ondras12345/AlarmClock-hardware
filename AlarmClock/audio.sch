@@ -86,6 +86,8 @@ F 0 "Q11" H 5091 4204 50  0000 L CNN
 F 1 "BCP53" H 5091 4295 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5100 4175 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF" H 4900 4250 50  0001 L CNN
+F 4 "https://www.tme.eu/cz/details/bcp53-16tx/tranzistory-pnp-smd/nexperia/" H 4900 4250 50  0001 C CNN "TME"
+F 5 "BCP53-16TX" H 4900 4250 50  0001 C CNN "TME Symbol"
 	1    4900 4250
 	1    0    0    1   
 $EndComp
@@ -97,6 +99,8 @@ F 0 "Q10" H 5091 3796 50  0000 L CNN
 F 1 "BCP56" H 5091 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5100 3675 50  0001 L CIN
 F 3 "http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1" H 4900 3750 50  0001 L CNN
+F 4 "https://www.tme.eu/cz/details/bcp56-16tx/tranzistory-npn-smd/nexperia/" H 4900 3750 50  0001 C CNN "TME"
+F 5 "BCP56-16TX" H 4900 3750 50  0001 C CNN "TME Symbol"
 	1    4900 3750
 	1    0    0    -1  
 $EndComp
@@ -182,6 +186,7 @@ F 1 "100u" V 6349 4000 50  0000 C CNN
 F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 6250 4000 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/fc08d512f84cb1110a815970383afa27/COIL0912-0.1.pdf" H 6250 4000 50  0001 C CNN
 F 4 "https://www.tme.eu/cz/details/coil0912-0.1/tlumivky-radialni/ferrocore/" V 6250 4000 50  0001 C CNN "TME"
+F 5 "COIL0912-0.1" H 6250 4000 50  0001 C CNN "TME Symbol"
 	1    6250 4000
 	0    -1   -1   0   
 $EndComp
@@ -194,6 +199,7 @@ F 1 "220u" V 5849 4000 50  0000 C CNN
 F 2 "Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" H 5750 4000 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/83adeab5777487b07497fd27dcca2b01/COIL0912-0.22.pdf" H 5750 4000 50  0001 C CNN
 F 4 "https://www.tme.eu/cz/details/coil0912-0.22/tlumivky-radialni/ferrocore/" V 5750 4000 50  0001 C CNN "TME"
+F 5 "COIL0912-0.22" H 5750 4000 50  0001 C CNN "TME Symbol"
 	1    5750 4000
 	0    -1   -1   0   
 $EndComp
@@ -276,7 +282,7 @@ F 0 "C14" H 6118 4296 50  0000 L CNN
 F 1 "3u3 / 50V" H 6050 4150 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6038 4100 50  0001 C CNN
 F 3 "~" H 6000 4250 50  0001 C CNN
-F 4 "TODO https://www.tme.eu/cz/details/pf1h3r3mpn0511u/elektrolyticke-kondenzatory-tht-105degc/elite/" H 6000 4250 50  0001 C CNN "TME"
+F 4 "https://www.tme.eu/cz/details/pf1h3r3mpn0511u/elektrolyticke-kondenzatory-tht-105degc/elite/" H 6000 4250 50  0001 C CNN "TME"
 	1    6000 4250
 	1    0    0    -1  
 $EndComp
@@ -337,6 +343,7 @@ F 0 "LS1" H 8370 4196 50  0000 L CNN
 F 1 "8 ohm" H 8370 4105 50  0000 L CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 8200 4000 50  0001 C CNN
 F 3 "~" H 8190 4150 50  0001 C CNN
+F 4 "GES7000132" H 8200 4200 50  0001 C CNN "GES"
 	1    8200 4200
 	1    0    0    -1  
 $EndComp
