@@ -7,6 +7,10 @@ This is the main project for the whole thing. Both schematics and PCB design.
 [Schematics](./AlarmClock.pdf)
 [PCB](./AlarmClock-PCB.pdf)
 
+The PCB is designed to be milled out from a single sided copper clad laminate
+on a CNC machine. However, the design should also be suitable for standard
+etching.
+
 **Warning**: R27 is currently NOT included in the gcode files in `cnc/`.
 However, it is quite easy to bodge in if you don't want to mess with `FlatCAM`
 to fix this. Gerber files are OK.
